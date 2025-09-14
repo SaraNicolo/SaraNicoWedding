@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferma Presenza Matrimonio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #8B4513; /* Un colore caldo per il titolo */
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label, input, textarea, button {
+            width: 80%;
+            margin-bottom: 15px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #8B4513;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #A0522D;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Conferma Presenza</h1>
+    <p>Saremmo felicissimi di averti con noi nel giorno del nostro matrimonio. Ti preghiamo di confermare la tua presenza compilando il modulo qui sotto.</p>
+
+    <form action="#" method="post">
+        <label for="nome">Nome e Cognome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="invitati">Numero di invitati:</label>
+        <input type="number" id="invitati" name="invitati" min="1" required>
+
+        <label for="messaggio">Un tuo messaggio (opzionale):</label>
+        <textarea id="messaggio" name="messaggio" rows="4"></textarea>
+
+        <button type="submit">Conferma la mia presenza</button>
+    </form>
+</div>
+
+</body>
+</html>
