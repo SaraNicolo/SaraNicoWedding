@@ -9,7 +9,7 @@
 	<title>Sara ❤️ Nicolò - 26.06.2026</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Ci sposiamo il 26 giugno 2026!" />
-	<meta name="keywords" content="sara,nico,matrimonio,website,rsvp" />
+	<meta name="keywords" content="sara,nico,matrimonio,website,RSVP" />
 	<meta name="author" content="Sara & Nico" />
 
   	<!-- Facebook and Twitter integration -->
@@ -30,6 +30,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia+Sans+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 	
 	<!-- clock   -->
 	<link rel="stylesheet" href="css/responsive-clock.css">
@@ -56,30 +58,52 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	
+	<style>
+	  /* Applica Playfair ai titoli principali h1 e h2 */
+	  h1, h2 {
+	    font-family: 'Playfair Display', serif !important;
+	    text-transform: none; /* Opzionale: mantiene le minuscole se il tema le forza in maiuscolo */
+	  }
+	
+	  /* Specifico per il titolo Sara & Nicolò nell'header */
+	  .display-tc h1 {
+	    font-family: 'Playfair Display', serif !important;
+	    font-weight: 700;
+	  }
+	
+	  /* Specifico per le sezioni Locations, Rsvp, Doni, Luna di miele */
+	  .fh5co-heading h2 {
+	    font-family: 'Playfair Display', serif !important;
+	    letter-spacing: 2px;
+	  }
+	#fh5co-event {
+	    position: relative;
+	    z-index: 10;
+	    overflow: hidden; /* Taglia eventuali sbordamenti del contenuto interno */
+	    margin-bottom: 0;
+	}
+	
+	#fh5co-RSVP {
+	    clear: both; /* Assicura che la sezione inizi dopo tutto ciò che precede */
+	}
+	#fh5co-header {
+	    background-position: center center !important;
+	    background-size: cover;
+	}
+	.fh5co-heading h2 {
+	    font-family: 'Playfair Display', serif !important;
+	    letter-spacing: 2px;
+	    color: #000000 !important; /* Forza il colore nero */
+	}
+	</style>
+	
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-	
-				<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li class="active"><a href="#fh5co-event">Locations</a></li>
-						<li class="active"><a href="#fh5co-RSVP">RSVP</a></li>
-						<li class="active"><a href="#fh5co-gallery">Doni</a></li>
-						<li class="active"><a href="#fh5co-services">Luna di miele</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
 
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
@@ -88,10 +112,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Sara &amp; Nicolò</h1>
+							<h1>Sara <span class="ampersand">&</span> Nicolò</h1>
 							<br>
 							<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-							<a href="https://logwork.com/countdown-ar3r" class="countdown-timer" style="cursor: default; pointer-events: none; text-decoration: none;" data-timezone="Europe/Rome" data-language="it" data-textcolor="#ffffff" data-date="2026-06-26 16:00">26 Giugno 2026</a>
+							<a href="https://logwork.com/countdown-ar3r" class="countdown-timer" style="cursor: default; pointer-events: none; text-decoration: none;" data-timezone="Europe/Rome" data-language="it" data-textcolor="#ffffff" data-date="2026-06-26 16:00">‎ </a>
 						</div>
 					</div>
 				</div>
@@ -101,8 +125,7 @@
 
 
 
-	<div id="fh5co-event" class="fh5co-bg">
-		<div class="overlay"></div>
+	<div id="fh5co-event" class="fh5co-section-panna">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -123,10 +146,10 @@
 									<div class="event-col">
 
 										<i class="icon-clock"></i>
-										<span>16:30</span>
+										<span>16:00</span>
 									</div>
-									<p>Presso <b>Santuario N.S. della Bruceta, Cremolino (AL).</b><br>Inizio cerimonia alle ore 17:00 <br>Posteggio disponibile in loco.</p>
-									<iframe src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=+(Santuario%20N.S.%20della%20Bruceta)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<p>Presso <b>Santuario N.S. della Bruceta, Cremolino (AL)</b><br>Inizio cerimonia alle ore 16:00<br>È gradito adeguato anticipo<br>Posteggio disponibile in loco</p>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2037.1468756963177!2d8.57498527473564!3d44.62902128877643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d32c70d3d1489d%3A0xbfa53a3bbf5ff422!2sSantuario%20N.S.%20della%20Bruceta!5e1!3m2!1sit!2sit!4v1773572323064!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -141,8 +164,8 @@
 										<i class="icon-clock"></i>
 										<span>18:00</span>
 									</div>
-									<p>Presso <b>Agriturismo A Modo Mio, Molare (AL).</b> <br>Aperitivo e cena<br>Posteggio disponibile in loco.</p>
-						<iframe src="https://maps.google.com/maps?width=300&amp;height=200&amp;hl=en&amp;q=Via%20Santuario,%2053A,%2015074%20Molare%20AL+(A%20Modo%20Mio)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+									<p>Presso <b>Agriturismo A Modo Mio, Molare (AL)</b><br>Inizio aperitivo alle ore 18:00<br>Seguono cena e festeggiamenti<br>Posteggio disponibile in loco</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8150.983103904041!2d8.574448988458897!3d44.61195478982383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d32c16ff9449e7%3A0xd6e9ebdb1d9f1336!2sA%20Modo%20Mio!5e1!3m2!1sit!2sit!4v1773572553033!5m2!1sit!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 							</div>
 						</div>
@@ -158,30 +181,30 @@
 
 
 
-	<div id="fh5co-RSVP" class="fh5co-bg">
-		<div class="overlay"></div>
+	<div id="fh5co-RSVP" class="fh5co-section-viola">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<br><br><br><br><h2>Rsvp</h2>
+					<br><br><br><br><h2>RSVP</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h3><br>Vi chiediamo gentilmente di confermare la vostra presenza entro e non oltre il 25 Maggio 2026 cliccando sul bottone sotto.<br><br></h3>
-					<p><a href="https://www.coinova.com" class="btn btn-default btn-sm">Conferma la tua presenza<br>Entro e non oltre il 25/05/2026</a></p>
+					<h3>Vi chiediamo gentilmente di confermare la vostra presenza entro e non oltre il <strong> 6 Giugno 2026</strong> accedendo al seguente link<br><br></h3>
+					<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLqNty1n75l1ocdcUYbLF2Ig7Ndrg7Tvm9RWjxSBiQn5Pb2Q/viewform?usp=publish-editor" class="btn btn-default btn-sm" target="_blank" rel="noopener noreferrer">Conferma la tua presenza</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
+	<div id="fh5co-gallery" class="fh5co-section-blu">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Doni</h2>
-					<h3><br>Il regalo più bello sarà la vostra presenza. Se però vorreste farci un regalo, la luna di miele sarà la nostra lista nozze. Ogni contributo, grande o piccolo, sarà un meraviglioso ricordo del vostro affetto.<br><br>IBAN: <strong>IT00000000000000000000000</strong><br>Intestato a Nicolò Prugno<br>info banca e sezione</h3>
+					<h3><br>Il regalo più bello sarà la vostra presenza. Se però desiderate farci un regalo, la luna di miele sarà la nostra lista nozze. Ogni contributo, grande o piccolo, sarà un meraviglioso ricordo del vostro affetto.<br>Accedi alla lista usando le credenziali:<br><br>Username:<strong> guest12824</strong><br>Password:<strong> a8b8ab</strong><br></h3>
+					<p><a href="https://aradoprugno.amoore.it/" class="btn btn-default btn-sm" target="_blank" rel="noopener noreferrer">Link alla lista nozze</a></p>
 				</div>
 			</div>
 		</div>
@@ -189,13 +212,13 @@
 
 
 
-	<div id="fh5co-services" class="fh5co-section-gray">
+	<div id="fh5co-services" class="fh5co-section-verde">
 		<div class="container">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Luna di miele</h2>
-					<h3><br><br>Sarà fantastico vedervi al nostro arrivo per raccontarvi il nostro viaggio di nozze, ma se volete un'anticipazione, ecco il nostro itinerario: caccapussa, pussacacca, mierdaseca....<br>
+					<h3><br><br>Sarà fantastico vedervi al ritorno per raccontarvi il nostro viaggio di nozze; ma, se volete un'anticipazione, ecco i luoghi che visiteremo: Perù, Colombia e Caraibi!<br>
 				</div>
 			</div>
 
@@ -228,6 +251,18 @@
 					</ul>		
 				</div>
 			</div>
+
+
+
+
+			<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<p style="color: #000; font-size: 16px; margin-top: 20px;"><br><br>Per qualsiasi necessità, contattaci ai numeri: <br><strong>Sara 3347524588</strong>, <br><strong>Nicolo' 3299465638</strong></p>
+							</div>
+						</div>
+
+
+
 
 			</div>
 			
