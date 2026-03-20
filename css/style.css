@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+  background: #FEECCD;
 }
 
 #page {
@@ -977,7 +977,23 @@ form label {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(0, 0, 0, 1);
+}
+
+.fh5co-section-verde {
+  background: #A7C53A;
+}
+
+.fh5co-section-blu {
+  background: #7195B3;
+}
+
+.fh5co-section-viola {
+  background: #AA94C5;
+}
+
+.fh5co-section-panna {
+  background: #FEECCD;
 }
 
 .couple-wrap {
@@ -1801,6 +1817,24 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+/* Nasconde l'interruttore del menu mobile */
+.fh5co-nav-toggle {
+    display: none !important;
+}
+
+/* Rimuove eventuali padding superiori creati per il menu fisso */
+#fh5co-header {
+    margin-top: 0 !important;
+}
+
+/* Stile specifico per la & in Marcellus */
+.ampersand {
+    font-family: 'Marcellus', serif !important;
+    font-style: normal;
+    padding: 0 10px; /* Aggiunge un po' di respiro ai lati del simbolo */
+    font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
